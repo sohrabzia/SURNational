@@ -1,0 +1,209 @@
+html {
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: transparent;
+}
+
+.logoMain {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00662B;
+}
+
+.navContainer {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 8px 18px 1px rgb(0 0 0 / 12%);
+    border-radius: 0 0 10px 10px;
+}
+
+.alertGreen {
+    background-color: #23CF7C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.heroSecton {
+    position: relative;
+}
+
+.heroSecton:after {
+    content: "";
+    position: absolute;
+    background: url(../img/fisherBoat.svg);
+    right: 74px;
+    top: 88px;
+    width: 414px;
+    height: 331px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.owl-nav button {
+    top: 43%;
+    position: absolute;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    font-size: 41px !important;
+    color: #81C19C !important;
+}
+
+.owl-nav .owl-prev {
+    left: -17px;
+}
+
+.owl-nav .owl-next {
+    right: -17px;
+}
+
+#ourBrands .owl-nav button {
+    top: 28%;
+    position: absolute;
+    font-size: 29px !important;
+}
+
+p {
+    color: #608A63;
+    font-size: 18px;
+}
+
+a {
+    color: #608A63;
+}
+
+a:hover {
+    color: #53AB5B;
+}
+
+h1,h2,h3 {
+    color: #037232;
+}
+
+.nav-pills .nav-link {
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #35A966;
+}
+
+.nav-pills .nav-link {
+    color: #58605B;
+}
+
+.tab-content img {
+    transition: all 0.3s ease;
+    border:1px solid #ececec;
+}
+
+.tab-content img:hover {
+    box-shadow: 2px 2px 15px 1px #cfbf9e70 !important;
+    transform: scale(1.2);
+    background-color: white;
+    padding: 10px;
+}
+
+.contactUs p{
+    color:#575757;
+}
+.findUsOn{
+    background:url('../img/skyline.svg');
+    background-repeat: repeat-x;
+    background-size: contain;
+    /* background-position: center; */
+}
+.findUsOn a {
+    transition:all 0.3s ease;
+}.findUsOn a:hover {
+transform:translateY(-5px);
+}
+footer{
+    background-color:#53CB94;
+}footer span{
+color:#fff;}
+
+.modal-body p{
+    font-size:16px;
+    color:#3E3C3C;
+}
+.modal-header{
+    background-color:#35A966;
+}
+.modal-title{
+    color:#fff;
+}
+.moretext {
+    display: none;
+  }
+
+  
+@media(max-width:1080px){
+    .heroSecton:after{
+        right: -24px;
+    top: 147px;
+    width: 301px;
+    height: 331px;
+    }
+}
+@media(max-width:768px){
+    .navContainer{
+        width:90%;
+    }
+    .heroSecton:after {
+       
+        right: -54px;
+        top: 116px;
+        width: 259px;
+        height: 347px;
+       
+    }
+.heroSecton img{
+    padding:10px;
+}
+ul.navbar-nav.mx-auto {
+    display: inline-block;
+}
+.navbar-nav li.nav-item{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+
+
+}
+
+@media(max-width:575px){
+
+    .alertGreen {
+        font-size: 20px;
+    }
+    .heroSecton:after {
+        right: -35px;
+        top: 80px;
+        width: 239px;
+        height: 347px;
+    }
+    .nav-pills .nav-link {
+        border-radius: 100px;
+        padding: 5px 9px;
+        font-size: 13px;
+    }
+.findUsOn img{
+    max-width:100%;
+}
+}

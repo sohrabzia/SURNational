@@ -49,7 +49,7 @@ $('#ourBrands').owlCarousel({
 
 $('.moreless-button').click(function() {
     $('.moretext').slideToggle();
-    if ($('.moreless-button').text() == "Read more") {
+    if ($('.moreless-button').text() == "See more") {
       $(this).text("See less")
     } else {
       $(this).text("See more")

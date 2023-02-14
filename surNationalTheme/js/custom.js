@@ -59,6 +59,23 @@ $('.moreless-button').click(function() {
 
  
   
+  $(document).ready(function () {
+    $('.animated').each(function (index) {
+        $(this).delay($(this).data('delay')).queue(function () {
+            $(this).addClass('animate-in');
+        });
+    });
+});
 
-  //read more
-  
+$(".animatedText").typed({
+    strings: ["Thai ", "Filipino "],
+    typeSpeed: 200,
+    startDelay: 100,
+    //backDelay: 4000,
+    fadeOut: true,
+    backSpeed: 50,
+    backDelay: 0,
+    loop: true,
+    cursorChar: "",
+    contentType: 'html'
+});

@@ -53,11 +53,11 @@ body {
     width: 100%;
     margin: auto;
     box-shadow: 1px 8px 18px 1px rgb(0 0 0 / 12%);
-    background: url(../img/skyline.svg);
+    background: url(../img/headerBg.svg);
     background-repeat: repeat-x;
     background-size: contain;
     background-color: #35a966;
-    background-blend-mode: multiply;
+    //background-blend-mode: multiply;
     animation: scroll 35s ease infinite alternate;
 }
 

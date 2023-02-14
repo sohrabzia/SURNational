@@ -161,8 +161,8 @@ h1,h2,h3 {
 
 .nav-pills .nav-link {
     border-radius: 100px;
-    padding: 5px 15px;
-    font-size: 14px;
+    padding: 2px 8px;
+    font-size: 18px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -316,7 +316,7 @@ a.text-decoration-none {
     .nav-pills .nav-link {
         border-radius: 100px;
         padding: 5px 9px;
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .findUsOn img {

@@ -22,7 +22,9 @@ h4 {
     z-index: 999;
     transform: translateY(20px)scale(30);
     opacity: 0;
+  
     animation: fadeUp 1s ease-in-out forwards;
+    animation-delay:2s;
 }
 
 @keyframes fadeUp {

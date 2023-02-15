@@ -13,9 +13,43 @@ body {
     background: transparent;
 }
 
-.heroText h2{
+h4 {
+    color: #4f4f4f;
+}
+
+.companyName {
+    transition: all 3s ease-in-out;
+    z-index: 999;
+    transform: translateY(20px)scale(30);
+    opacity: 0;
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    60% {
+        transform: translateY(0px)scale(0.8);
+        opacity: 1;
+    }
+
+    70% {
+        transform: translateY(0px)scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0px)scale(1);
+        opacity: 1;
+    }
+}
+
+.companyName h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heroText h2 {
     font-size: 40px;
-    font-family:arial;
+    font-family: arial;
     background-image: linear-gradient(65deg, #41B576 20%, #52AACF 30%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,16 +57,18 @@ body {
     -moz-text-fill-color: transparent;
     margin-top: 55px;
     font-weight: bolder;
-  }
-  .animatedText{
-    font-size:60px;
-    height:70px;
-  } 
-  .animatedText img{
-    width:70px;
-    transition:all 1.3s ease;
-  
 }
+
+.animatedText {
+    font-size: 60px;
+    height: 70px;
+}
+
+.animatedText img {
+    width: 70px;
+    transition: all 1.3s ease;
+}
+
 .logoMain {
     width: 141px;
     height: auto;
@@ -109,6 +145,10 @@ body {
     z-index: -1;
 }
 
+.font-weight-800 {
+    font-weight: 800;
+}
+
 .owl-nav button {
     top: 43%;
     position: absolute;
@@ -147,7 +187,7 @@ a:hover {
 }
 
 h1,h2,h3 {
-    color: #037232;
+    color: #35a966;
 }
 
 .nav-pills .nav-item {
@@ -234,8 +274,6 @@ a.text-decoration-none {
     font-style: oblique;
 }
 
-
-
 @media(max-width: 1080px) {
     .heroSecton:after {
         right: -24px;
@@ -246,10 +284,18 @@ a.text-decoration-none {
 }
 
 @media(max-width: 768px) {
-    .tab-content img:hover {
-        transform: scale(1  );
-
+    .companyName h1 {
+        font-size: 38px;
     }
+
+    .owl-nav i {
+        font-size: 26px;
+    }
+
+    .tab-content img:hover {
+        transform: scale(1);
+    }
+
     .heroSecton {
         overflow: hidden;
     }
@@ -286,13 +332,11 @@ a.text-decoration-none {
 }
 
 @media(max-width: 575px) {
-
     .heroText h2 {
         font-size: 23px;
         margin-bottom: 20px;
         margin-top: 25px;
     }
-
 
     .logoMain {
         width: 94px;
@@ -300,6 +344,7 @@ a.text-decoration-none {
 
     .navbar-light .navbar-nav .nav-link {
         margin: 0 5px;
+        letter-spacing: -1px;
     }
 
     .alertGreen {
@@ -323,3 +368,4 @@ a.text-decoration-none {
         max-width: 100%;
     }
 }
+    

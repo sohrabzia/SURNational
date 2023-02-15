@@ -41,7 +41,9 @@ h4 {
         opacity: 1;
     }
 }
-
+.companyName h1{
+    color: #35a966;
+}
 .companyName h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -186,8 +188,9 @@ a:hover {
     color: #53AB5B;
 }
 
+
 h1,h2,h3 {
-    color: #35a966;
+    color: #067233;
 }
 
 .nav-pills .nav-item {
